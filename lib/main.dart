@@ -1,7 +1,7 @@
 import 'package:projetofinal/src/pessoa.dart';
 import 'dart:io';
 
-Pessoa pessoa = Pessoa();
+Pessoa pessoa = Pessoa(); //declaracao do objeto
 void main(List<String> arguments) {
   print('=== Digite o nome :');
   pessoa.nome = stdin.readLineSync();
